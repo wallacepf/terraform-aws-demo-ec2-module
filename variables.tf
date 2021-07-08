@@ -33,3 +33,7 @@ variable "inst_common_tags" {
     "Owner" : "DB Team"
   }
 }
+
+variable "aws_region" {
+  
+}
