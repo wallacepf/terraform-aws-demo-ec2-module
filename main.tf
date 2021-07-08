@@ -8,7 +8,7 @@ module "ec2_demo" {
   ami                    = var.inst_ami
   instance_type          = var.inst_size
   key_name               = var.inst_key_name
-  vpc_security_group_ids = var.inst_sec_group_id
+  vpc_security_group_ids = [var.inst_sec_group_id]
   subnet_id              = var.inst_subnet_id
   associate_public_ip_address = true
 
