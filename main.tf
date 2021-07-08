@@ -1,7 +1,3 @@
-provider "aws" {
-  region = var.aws_region
-}
-
 module "ec2_demo" {
   source                 = "terraform-aws-modules/ec2-instance/aws"
   version                = "~> 2.0"
