@@ -3,10 +3,7 @@ variable "inst_name" {}
 variable "inst_key_name" {}
 variable "inst_sec_group_id" {}
 variable "inst_subnet_id" {}
-
-variable "inst_ami" {
-    default = "ami-03d5c68bab01f3496"
-}
+variable "inst_ami" {}
 
 variable "inst_count" {
   default = "1"
